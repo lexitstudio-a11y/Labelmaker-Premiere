@@ -1,0 +1,94 @@
+:root {
+    color-scheme: dark;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    color: #d9d9d9;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.panel {
+    padding: 14px;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+    color: #f0f0f0;
+}
+
+.hint {
+    color: #9a9a9a;
+    line-height: 1.4;
+    margin: 0 0 14px 0;
+}
+
+.croissant-btn {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    background: #4a4a4a;
+    color: #f0f0f0;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.croissant-btn:hover {
+    background: #5a5a5a;
+}
+
+.croissant-btn:active {
+    background: #3a3a3a;
+}
+
+.croissant-btn .emoji {
+    margin-right: 6px;
+}
+
+.status {
+    margin-top: 10px;
+    min-height: 16px;
+    font-size: 11px;
+    color: #9a9a9a;
+}
+
+.status.ok {
+    color: #7fc97f;
+}
+
+.status.err {
+    color: #e07a7a;
+}
+
+.palette {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 12px;
+}
+
+.palette .swatch-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #b5b5b5;
+}
+
+.palette .swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    flex: 0 0 auto;
+}

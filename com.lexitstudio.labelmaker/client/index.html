@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Label Maker</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="panel">
+        <h1>Label Maker</h1>
+        <p class="hint">
+            Selectionnez des elements dans la timeline, puis cliquez sur
+            Croissant pour leur appliquer un label de couleur different,
+            dans l'ordre de la timeline.
+        </p>
+
+        <button id="croissant-btn" class="croissant-btn">
+            <span class="emoji">🥐</span> Croissant
+        </button>
+
+        <div id="status" class="status"></div>
+
+        <div class="palette" id="palette"></div>
+    </div>
+
+    <script src="./CSInterface.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
