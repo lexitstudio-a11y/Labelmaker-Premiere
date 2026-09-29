@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Font Finder – Nom de police",
+  "version": "1.0.0",
+  "description": "Sélectionnez un texte sur une page web pour afficher le nom de sa police d'écriture.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+#ff-tooltip {
+  all: initial;
+  position: absolute;
+  z-index: 2147483647;
+  max-width: 320px;
+  padding: 10px 12px;
+  background: #1e1e24;
+  color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+#ff-tooltip * { all: unset; box-sizing: border-box; }
+#ff-tooltip .ff-name { display: block; font-size: 16px; font-weight: 700; color: #7cc4ff; margin-bottom: 2px; }
+#ff-tooltip .ff-row { display: block; color: #cfcfd6; }
+#ff-tooltip .ff-row b { color: #fff; font-weight: 600; }
+#ff-tooltip .ff-stack { display: block; margin-top: 6px; font-size: 11px; color: #9a9aa5; word-break: break-word; }
+#ff-tooltip .ff-btn {
+  display: inline-block; margin-top: 8px; padding: 3px 8px; cursor: pointer;
+  background: #3a3a45; border-radius: 4px; font-size: 12px;
+}
+#ff-tooltip .ff-btn:hover { background: #4b4b59; }
